@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b206dcd4-0d13-4965-9ed7-b0ec099709d6">
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b206dcd4-0d13-4965-9ed7-b0ec099709d6">
   <producedTypes>
     <objectType typeId="25f63cc6-b2de-42d2-af8f-8600dcab40cb" valueTypeId="04339a6b-c3d9-4095-9911-343fef50cfb0"/>
   </producedTypes>
@@ -10,6 +10,107 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="00e3b7d5-51aa-42af-9490-fb41ea33ad06"/>
   <defaultForm>ExternalDataProcessor.ИТМ_ОбновлениеВариантовОтчетов.Form.Форма</defaultForm>
+  <attributes uuid="3650c3dd-d92d-48d8-a553-436dd7d89007">
+    <name>КомпоновщикНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик настроек</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6238bfc6-7034-4148-9279-73ac5e0edcf8">
+    <name>АдресСхемыКомпоновки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес схемы компоновки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bb4a98ea-81b1-4a1b-a79e-f35244697e62">
+    <producedTypes>
+      <objectType typeId="1731a1f5-7481-4e4a-8a9c-cfff44a3fb3e" valueTypeId="c25e9e1a-c7de-4548-a395-37f6ed195071"/>
+      <rowType typeId="3792a76f-fba6-4cf7-a79f-d47bcc4ea24e" valueTypeId="2fe3d5ad-c696-44f6-9623-1d07325e505a"/>
+    </producedTypes>
+    <name>ЗаменяемыеПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменяемые поля</value>
+    </synonym>
+    <attributes uuid="137d323d-0638-4d95-8fcf-799f03c0c399">
+      <name>Заменять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заменять</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7cf0d209-6c1d-4749-8b39-58044e76e056">
+      <name>ПутьДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь до</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8fc55c18-51e4-4b8e-9142-a37bd1d9abe4">
+      <name>ПутьПосле</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь после</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="afd40083-1fb2-4253-a048-4f8408325d9b">
+    <producedTypes>
+      <objectType typeId="6e51057e-32d2-4e50-a408-dc9c50caa7e9" valueTypeId="f813ce6d-3ce3-4841-8525-83b07bda2107"/>
+      <rowType typeId="744e96ac-a445-4aa3-be82-523656321e26" valueTypeId="65add0c3-d6a2-46d7-92b2-cd2070823244"/>
+    </producedTypes>
+    <name>ОбновляемыеВарианты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновляемые варианты</value>
+    </synonym>
+    <attributes uuid="86c8a736-bc94-4e98-b50c-9483b966d0cb">
+      <name>ВариантОтчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант отчета</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыОтчетов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
   <forms uuid="7024ca8c-15da-4a1e-a3b2-7ff74e2f11b4">
     <name>Форма</name>
     <synonym>
@@ -19,4 +120,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="d97acdd6-044c-4925-85bd-40c619b9a29c">
+    <name>СхемаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выбора</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>
