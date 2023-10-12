@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b206dcd4-0d13-4965-9ed7-b0ec099709d6">
+  <producedTypes>
+    <objectType typeId="25f63cc6-b2de-42d2-af8f-8600dcab40cb" valueTypeId="04339a6b-c3d9-4095-9911-343fef50cfb0"/>
+  </producedTypes>
+  <name>ИТМ_ОбновлениеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление вариантов отчетов (ИТМ)</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="00e3b7d5-51aa-42af-9490-fb41ea33ad06"/>
+  <defaultForm>ExternalDataProcessor.ИТМ_ОбновлениеВариантовОтчетов.Form.Форма</defaultForm>
+  <forms uuid="7024ca8c-15da-4a1e-a3b2-7ff74e2f11b4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
