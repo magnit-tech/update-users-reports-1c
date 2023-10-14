@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0029465-ed07-4473-8b48-f241025f048e">
+  <producedTypes>
+    <objectType typeId="e1814429-f739-4181-a163-05fd7738ba56" valueTypeId="accdeaf0-97cf-4a2f-b291-488880d63844"/>
+    <managerType typeId="7dcb8fbe-5d7e-4ef4-88aa-cc2b83727d5d" valueTypeId="b70797a0-1a3b-4d26-b13d-af9860db067c"/>
+  </producedTypes>
+  <name>ИТМ_ОбновлениеВариантовОтчетов_Тесты_Отчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИТМ_ОбновлениеВариантовОтчетов_Тесты_Отчет.Template.СхемаДо</mainDataCompositionSchema>
+  <templates uuid="17ac89aa-a013-40ff-b235-06bc0449fae6">
+    <name>СхемаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема до</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="81b9539a-3344-4b7a-ad9c-77dfb8af39ba">
+    <name>СхемаПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема после</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

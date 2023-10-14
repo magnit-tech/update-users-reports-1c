@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a31e0ecd-a6df-46c5-a4b3-5e44c40c19b4">
+  <name>ИТМ_ОбновлениеВариантовОтчетов_Тесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление вариантов отчетов. Тесты. ИТМ</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="61cf80d2-ef3c-4aac-94de-30dec0843235"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4fe1d0bc-f359-4427-810c-130bc0fd038e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="75e85e47-fc8d-4eca-9751-dfb83724a57d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3082d5a1-98fd-4448-9e5a-fb9523d05afd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2c6a6583-4699-4e07-b7c8-eaa09d97828a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3be964f1-6fe2-4b4d-a367-7fdcd7f45d79"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2995c25a-d5da-43a2-a217-00d51dda28a9"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ИТМ_ОбновлениеВариантовОтчетов_Тесты_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="3d0b0bfe-a6ac-4b1f-a6d1-3d4ebafad01a">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ИТМ_ОбновлениеВариантовОтчетов_Тесты_Сервер</commonModules>
+  <catalogs>Catalog.ВариантыОтчетов</catalogs>
+  <reports>Report.ИТМ_ОбновлениеВариантовОтчетов_Тесты_Отчет</reports>
+  <dataProcessors>DataProcessor.ИТМ_ОбновлениеВариантовОтчетов_Интерфейс</dataProcessors>
+</mdclass:Configuration>
