@@ -110,5 +110,18 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="b674b01f-8bbb-4735-b264-32447b447c93">
+      <name>Изменен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменен</value>
+      </synonym>
+      <comment>Изменен ли вариант отчета в результате обработки</comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
 </mdclass:DataProcessor>
